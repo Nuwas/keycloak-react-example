@@ -14,8 +14,8 @@ import Keycloak from 'keycloak-js';
 */
 let initOptions = {
   url: 'https://sso.nuwas.nn/keycloak/',
-  realm: 'master',
-  clientId: 'react-client',
+  realm: 'nuwas-auth',
+  clientId: 'ui',
 }
 
 let kc = new Keycloak(initOptions);
@@ -104,7 +104,7 @@ function App() {
               label='Send HTTP Request'
               severity="success" />
 
-            <Button onClick={() => { kc.logout({ redirectUri: 'http://localhost:3000/' }) }}
+            <Button onClick={() => { kc.logout({ redirectUri: 'https://ui.nuwas.nn/' }) }}
               className="m-1 custom-btn-style"
               label='Logout'
               severity="danger" />
