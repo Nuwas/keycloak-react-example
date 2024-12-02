@@ -10,3 +10,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 #### Important : Ensure that the keycloak-js version matches the Keycloak server version.
 
+
