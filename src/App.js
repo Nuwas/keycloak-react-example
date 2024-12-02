@@ -13,7 +13,7 @@ import Keycloak from 'keycloak-js';
   Init Options
 */
 let initOptions = {
-  url: 'https://sso.nuwas.nn/',
+  url: 'https://sso.nuwas.nn/keycloak/',
   realm: 'master',
   clientId: 'react-client',
 }
