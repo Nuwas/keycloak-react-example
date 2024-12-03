@@ -104,7 +104,7 @@ function Home() {
               label='Send HTTP Request'
               severity="success" />
 
-            <Button onClick={() => { kc.logout({ redirectUri: 'https://ui.nuwas.nn/' }) }}
+            <Button onClick={() => { kc.logout({ redirectUri: 'https://ui.nuwas.nn/web' }) }}
               className="m-1 custom-btn-style"
               label='Logout'
               severity="danger" />
